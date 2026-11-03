@@ -18,3 +18,43 @@
 .texto-tres{
     font-family: "Cowboy Movie";
 }
+
+nav ul{
+    list-style: none;
+}
+
+nav ul:hover{
+    height: 100%;
+}
+
+nav ul li{
+    display: inline-block;
+    width: 150px;
+    height: 25px;
+    margin: 5px;
+    padding: 5px;
+
+    text-align: center;
+
+    background-color: orange;
+
+    border-radius: 15px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+#menu-lista{
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.5s;
+    transition: width 0.5s;
+}
+
+#lista::-moz-range-thumb{
+    height: 600px;
+    width: 100vh;
+}
