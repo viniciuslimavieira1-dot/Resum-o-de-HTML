@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Vinícius Vieira">
+    <meta name="description" content="Resumos das aulas de HTML e CSS">
+    <meta name="keywords" content="html5, css, tecnologia">
+    <title>Resumo das aulas de HTML</title>
+
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 80%;
+            margin: auto;
+            background-color: beige;
+        }
+
+        th{
+            background-color: yellow;
+            border: 2px solid chocolate;
+            padding: 15px;
+        }
+
+        td{
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./pages/fontes.html">Trabalhando com fontes</a>
+                </li>
+                <li>
+                    <a href="./pages/display.html">Trabalhando com display</a>
+                </li>
+                <li>
+                    <a href="./pages/boxsizing.html">Trabalhando com boxsizing</a>
+                </li>
+                <li>
+                    <a href="./pages/position.html">Position</a>
+                </li>
+                <li>
+                    <a href="./pages/listas.html">Listas</a>
+                </li>
+                <li>
+                    <a href="./pages/overflow.html">Overflow</a>
+                </li>
+                <li>
+                    <a href="./pages/tabela.html">Tabela</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <table>
+            <caption>Tabela de preços de cursos</caption>
+
+            <thead>
+                <tr>
+                    <th>Área</th>
+                    <th>Curso</th>
+                    <th>Investimento</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td rowspan="3">Design</td>
+                    <td>InDesging</td>
+                    <td>R$ 1.000,00</td>
+                </tr>
+                <tr>
+                    <!-- td>Design</td> -->
+                    <td>Photoshop</td>
+                    <td>R$ 1.000,00</td>
+                </tr>
+                <tr>
+                    <!-- td>Design</td> -->
+                    <td>Ilustrador</td>
+                    <td>R$ 1.000,00</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Desenvolviemtno</td>
+                    <td>HTML</td>
+                    <td>R$ 1.000,00</td>
+                </tr>
+                <tr>
+                    <!-- td>Desenvolviemtno</td> -->
+                    <td>CSS</td>
+                    <td>R$ 1.000,00</td>
+                </tr>
+                <tr>
+                    <td>Desenvolviemtno</td>
+                    <td>JS</td>
+                    <td>R$ 1.000,00</td>
+                </tr>
+                <tr>
+                    <td>Desenvolviemtno</td>
+                    <td>PHP</td>
+                    <td>R$ 1.000,00</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Valores sujeitos a alterações sem aviso prévio</td>
+                </tr>
+            </tfoot>
+
+        </table>
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
